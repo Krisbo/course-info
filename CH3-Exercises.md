@@ -1,5 +1,5 @@
 ## Eager probabilistic broadcast
-Eager probabilistic broadcast uses two parameters, *k* and *R*.
+Eager probabilistic broadcast (Alg 3.9) uses two parameters, *k* and *R*.
 Let *P* denote the probability that all processes receive a certain message using eager probabilistic broadcast.
 1. What happens with *P* if we increase *R*?
 2. Can you choose *k* and *R* such that *P=1*?
