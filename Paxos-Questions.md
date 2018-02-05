@@ -11,6 +11,6 @@ the three acceptors A1, A2 and A3 have the following state
   A2: rnd = 2, vrnd = 2, vval = "Hei You"
   A3: rnd = 3, vrnd = 3, vval = "Hello World"  
   ```
-  * Can the value "Hei Norge" be learned in round 4?
+  * Can the value "Hei You" be learned in round 4?
   * Can the value "Hello World" be learned in round 4?
   * Can you draw a sequence diagram for an execution that results in this state?
