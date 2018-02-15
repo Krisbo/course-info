@@ -38,14 +38,6 @@ Can byzantine consensus with weak validity be used to implement strong validity?
 * What triggers a new epoch in Byzantine Leader-Driven Consensus (Alg. 5.19)?
 * Compare the Byzantine Read/Write Epoch Consensus (Alg. 5.17, 5.18) to authenticated double-echo broadcast (Alg. 3.18).
 
----
-
-## Extra execises:
-
-* Compare the three algorithms 5.1, 5.2, 5.3 and 5.4. What are the performance benefits drawbacks?
-* What optimizations are possible to Read/Write Epoch Consensus (Alg. 5.6) if it is used inside the Leader driven consensus (Alg 5.7).
-* Draw sequence charts for binary probabilistic consensus, one for an execution where the coin is tossed, one for an execution, where the coin has no effect.
-
 A leader for Byzantine Leader-Driven Consensus receives the following messages in the conditional collect primitive:
 ```html
 m1 = <STATE> ts = 2, v = "X", ws = { (ts = 2, v= "X")}  </STATE>
@@ -60,3 +52,13 @@ Assume the leader receives an additional message:
 m4 = <STATE> ts = 0, v = "X", ws = { (ts = 3, v= "Y")}  </STATE>
 ```
 * What value will be written this round?
+
+---
+
+## Extra execises:
+
+* Compare the three algorithms 5.1, 5.2, 5.3 and 5.4. What are the performance benefits drawbacks?
+* What optimizations are possible to Read/Write Epoch Consensus (Alg. 5.6) if it is used inside the Leader driven consensus (Alg 5.7).
+* Draw sequence charts for binary probabilistic consensus, one for an execution where the coin is tossed, one for an execution, where the coin has no effect.
+
+
