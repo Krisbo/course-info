@@ -33,3 +33,21 @@ that is regular but not atomic.
  ![Figure 2, an execution of an (N,N)-register with a failed write.](fig/CH4-fig2.jpg?raw=true)
  
  ![Figure 3, an execution of an (N,N)-register with a failed write.](fig/CH4-fig3.jpg?raw=true)
+
+## Linearizability on a set-object
+*difficult exercise*
+
+We now want to look at linearizability or atomicity on a different object, namely on a set.
+
+The set has three operations:
+ * `add(_)` adds an element to the set
+ * `rem(_)` removes an element from the set, if it is part of the set
+ * `show()` returns the set, including all elements that have been added but not removed
+ 
+Figure 4 shows a sequential execution of our set. Note that two adds do not result in duplicates.
+ 
+ ![Figure 4, a sequential execution of our set.](fig/CH4-fig4.jpg?raw=true)
+ 
+ 
+
+
