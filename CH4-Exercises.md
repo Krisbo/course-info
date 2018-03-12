@@ -49,5 +49,8 @@ Figure 4 shows a sequential execution of our set. Note that two adds do not resu
  ![Figure 4, a sequential execution of our set.](fig/CH4-fig4.jpg?raw=true)
  
  
+9. The figure below shows an execution of our set. Show that the execution is atomic/linearizable, by assigning synchronization points and ordering operations.
 
+![Figure 5, a concurrent execution of our set.](fig/CH4-fig5.jpg?raw=true)
+ 
 
