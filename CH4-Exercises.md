@@ -37,7 +37,9 @@ that is regular but not atomic.
 ## Linearizability on a set-object
 *difficult exercise*
 
-We now want to look at linearizability or atomicity on a different object, namely on a set.
+The point of the following exercise is to see that linearizability or atomicity are meaningfull properties, 
+in the context if other distributed objects, than registers.
+We therefore look at a set object:
 
 The set has three operations:
  * `add(_)` adds an element to the set
