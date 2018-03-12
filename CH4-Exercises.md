@@ -17,6 +17,9 @@ that is not regular.
 6. Draw a sequence diagram for an execution of a (1,N)-register 
 that is regular but not atomic.
 
+*Optional:* Think of if the sequence diagram you have drawn is possible for algorithm 4.1 or 4.2 and 
+how/why this behaviour is not possible in algorithm 4.5 or 4.6.
+
 ## Atomic and linearizable
 
 7. The figure below shows an execution of an (N,N)-register.
@@ -37,7 +40,9 @@ that is regular but not atomic.
 ## Linearizability on a set-object
 *difficult exercise*
 
-We now want to look at linearizability or atomicity on a different object, namely on a set.
+The point of the following exercise is to see that linearizability or atomicity are meaningfull properties, 
+in the context if other distributed objects, than registers.
+We therefore look at a set object:
 
 The set has three operations:
  * `add(_)` adds an element to the set
@@ -49,5 +54,8 @@ Figure 4 shows a sequential execution of our set. Note that two adds do not resu
  ![Figure 4, a sequential execution of our set.](fig/CH4-fig4.jpg?raw=true)
  
  
+9. The figure below shows an execution of our set. Show that the execution is atomic/linearizable, by assigning synchronization points and ordering operations.
 
+![Figure 5, a concurrent execution of our set.](fig/CH4-fig5.jpg?raw=true)
+ 
 
