@@ -56,6 +56,10 @@ Figure 4 shows a sequential execution of our set. Note that two adds do not resu
  
 9. The figure below shows an execution of our set. Show that the execution is atomic/linearizable, by assigning synchronization points and ordering operations.
 
-![Figure 5, a concurrent execution of our set.](fig/CH4-fig5.jpg?raw=true)
- 
+![Figure 5, a concurrent execution of our set.](fig/CH4-fig5b.jpg?raw=true)
+
+
+*!! There earlier was a mistake in this figure. It is now fixed. The earlier figure (now Figure 6) is not linearizable (atomic). It is still shown below.
+
+![Figure 6, a concurrent execution of the set object, that is not linearizable.](fig/CH4-fig5.jpg?raw=true)
 
