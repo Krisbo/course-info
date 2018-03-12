@@ -18,7 +18,7 @@ that is not regular.
 that is regular but not atomic.
 
 *Optional:* Think of if the sequence diagram you have drawn is possible for algorithm 4.1 or 4.2 and 
-how why this behaviour is not possible in algorithm 4.5 or 4.6.
+how/why this behaviour is not possible in algorithm 4.5 or 4.6.
 
 ## Atomic and linearizable
 
