@@ -22,3 +22,5 @@
 |nsdi17-lepton-storage |	Vladyslav Maksyk |
 |hybrids_on_steroids_17_eurosys |	Anandhakumar Palanisamy |
 |hardeningCassandra |	Simen Tranøy |
+|nonUniformReplication | Rameesha Asghar |
+|SpeedingUpConsensus | Chibuzor Nwemambu |
