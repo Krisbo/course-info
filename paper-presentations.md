@@ -23,4 +23,6 @@
 |hybrids_on_steroids_17_eurosys |	Anandhakumar Palanisamy |
 |hardeningCassandra |	Simen Tranøy |
 |nonUniformReplication | Rameesha Asghar |
+|Dynamic Scalable State Machine Replication | Chibuzor Nwemambu |
+|paxos-transparent-crane-sosp15 | Bilal Amjad |
 
