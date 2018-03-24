@@ -25,4 +25,6 @@
 |nonUniformReplication | Rameesha Asghar |
 |Dynamic Scalable State Machine Replication | Chibuzor Nwemambu |
 |paxos-transparent-crane-sosp15 | Bilal Amjad |
-
+|Low-Overhead Byzantine Fault-Tolerant Storage"/loft-hendricks2007sosp | Magnus Gustavsen |
+|consensus-box-nsdi16-istvan | Siavash Rasouli |
+Algorand: Scaling Byzantine Agreements for Cryptocurrencies | Noor Ur Rehman |
