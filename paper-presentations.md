@@ -27,4 +27,52 @@
 |paxos-transparent-crane-sosp15 | Bilal Amjad |
 |Low-Overhead Byzantine Fault-Tolerant Storage"/loft-hendricks2007sosp | Magnus Gustavsen |
 |consensus-box-nsdi16-istvan | Siavash Rasouli |
-Algorand: Scaling Byzantine Agreements for Cryptocurrencies | Noor Ur Rehman |
+|Algorand: Scaling Byzantine Agreements for Cryptocurrencies | Noor Ur Rehman |
+|occult-causalDatastore | Zubair Nawaz |
+
+## Friday 6th April
+|   |Paper              |	Student |
+|---|-------------------|---------|
+|1  |byzcoin-sec16_paper_kokoris-kogias.pdf	| Jungwon Seo |
+|2  |ripple-icdcs2017 |	Elisabeth Bratli |
+|3  |solida-opodis2017	| Nicolas Fløysvik |
+|4  |hq-replication |	Priyanka Chennam Lakshmikumar |
+|5  |hybrids_on_steroids_17_eurosys |	Anandhakumar Palanisamy |
+|6  |Algorand: Scaling Byzantine Agreements for Cryptocurrencies | Noor Ur Rehman |
+
+
+## Monday 9th April 
+|   |Paper              |	Student |
+|---|-------------------|---------|
+|1  |Low-Overhead Byzantine Fault-Tolerant Storage"/loft-hendricks2007sosp | Magnus Gustavsen |
+|2  |hardeningCassandra |	Simen Tranøy |
+|3  |ec-cache-osdi16-rashmi |	Daniel Barati |
+|4  |correctables-osdi16-guerraoui |	Mari Håland |
+|5  |mojim-ASPLOS2015Mojim | Ferdinand Rødne Tvedt |
+|6  |snow-osdi16-lu |	Kjetil Huy Tran |
+
+## Friday 13th April
+|   |Paper              |	Student |
+|---|-------------------|---------|
+|1  |epaxos-moraru-sosp2013 |	Magnus Book | 
+|2  |janus-osdi16-mu.pdf |	Didrik Fleischer |
+|3  |SpeedingUpConsensus |	Hafiz Rayaan Shahid |
+|4  |paxos-transparent-crane-sosp15 | Bilal Amjad |
+|5  |consensus-box-nsdi16-istvan | Siavash Rasouli |
+
+## Monday 16th April
+|   |Paper              |	Student |
+|---|-------------------|---------|
+|1  |slicer-osdi16-adya |	Paria Heidari |
+|2  |fastCast (Fast Atomic Multicast) |	Fredrik Wigsnes |
+|3  |scalable-smr-2014DSN |	Fabian Legland Boe |
+|4  |Dynamic Scalable State Machine Replication | Chibuzor Nwemambu |
+
+## Friday 20th April
+|   |Paper              |	Student |
+|---|-------------------|---------|
+|1  |nsdi17-vCorfu	| Redjol Resulaj |
+|2  |callas-xie-sosp2015 |	Luca Tomasetti |
+|3  |nsdi17-lepton-storage |	Vladyslav Maksyk |
+|4  |nonUniformReplication | Rameesha Asghar |
+|5  |occult-causalDatastore | Zubair Nawaz |
