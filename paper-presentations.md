@@ -29,6 +29,9 @@
 |consensus-box-nsdi16-istvan | Siavash Rasouli |
 |Algorand: Scaling Byzantine Agreements for Cryptocurrencies | Noor Ur Rehman |
 |occult-causalDatastore | Zubair Nawaz |
+|rifl-lee-sosp2015 | Jerzy Zbigniew Jedruszek |
+|xft-osdi16-liu | Stian Trondsen |
+
 
 ## Friday 6th April
 |   |Paper              |	Student |
@@ -49,16 +52,17 @@
 |3  |ec-cache-osdi16-rashmi |	Daniel Barati |
 |4  |correctables-osdi16-guerraoui |	Mari Håland |
 |5  |mojim-ASPLOS2015Mojim | Ferdinand Rødne Tvedt |
-|6  |snow-osdi16-lu |	Kjetil Huy Tran |
+|6  |xft-osdi16-liu | Stian Trondsen |
 
 ## Friday 13th April
 |   |Paper              |	Student |
 |---|-------------------|---------|
 |1  |epaxos-moraru-sosp2013 |	Magnus Book | 
 |2  |janus-osdi16-mu.pdf |	Didrik Fleischer |
-|3  |SpeedingUpConsensus |	Hafiz Rayaan Shahid |
-|4  |paxos-transparent-crane-sosp15 | Bilal Amjad |
-|5  |consensus-box-nsdi16-istvan | Siavash Rasouli |
+|3  |tapir  | Nicolai Vikanes Stensland |
+|4  |SpeedingUpConsensus |	Hafiz Rayaan Shahid |
+|5  |paxos-transparent-crane-sosp15 | Bilal Amjad |
+|6  |consensus-box-nsdi16-istvan | Siavash Rasouli |
 
 ## Monday 16th April
 |   |Paper              |	Student |
@@ -67,6 +71,8 @@
 |2  |fastCast (Fast Atomic Multicast) |	Fredrik Wigsnes |
 |3  |scalable-smr-2014DSN |	Fabian Legland Boe |
 |4  |Dynamic Scalable State Machine Replication | Chibuzor Nwemambu |
+|5  |snow-osdi16-lu |	Kjetil Huy Tran |
+|6  |rifl-lee-sosp2015 | Jerzy Zbigniew Jedruszek |
 
 ## Friday 20th April
 |   |Paper              |	Student |
