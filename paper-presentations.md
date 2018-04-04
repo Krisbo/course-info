@@ -31,6 +31,7 @@
 |occult-causalDatastore | Zubair Nawaz |
 |rifl-lee-sosp2015 | Jerzy Zbigniew Jedruszek |
 |xft-osdi16-liu | Stian Trondsen |
+|geo-paxos | Kristoffer Løyning Bøe |
 
 
 ## Friday 6th April
@@ -73,6 +74,7 @@
 |4  |Dynamic Scalable State Machine Replication | Chibuzor Nwemambu |
 |5  |snow-osdi16-lu |	Kjetil Huy Tran |
 |6  |rifl-lee-sosp2015 | Jerzy Zbigniew Jedruszek |
+|7  |geo-paxos | Kristoffer Løyning Bøe |
 
 ## Friday 20th April
 |   |Paper              |	Student |
@@ -82,3 +84,4 @@
 |3  |nsdi17-lepton-storage |	Vladyslav Maksyk |
 |4  |nonUniformReplication | Rameesha Asghar |
 |5  |occult-causalDatastore | Zubair Nawaz |
+|6  | tbd.  | Mohammad M Muhib |
