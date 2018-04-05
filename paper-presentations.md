@@ -64,6 +64,7 @@
 |4  |SpeedingUpConsensus |	Hafiz Rayaan Shahid |
 |5  |paxos-transparent-crane-sosp15 | Bilal Amjad |
 |6  |consensus-box-nsdi16-istvan | Siavash Rasouli |
+|7  |bchain | Tom Kristian Tjemsland |
 
 ## Monday 16th April
 |   |Paper              |	Student |
@@ -84,4 +85,4 @@
 |3  |nsdi17-lepton-storage |	Vladyslav Maksyk |
 |4  |nonUniformReplication | Rameesha Asghar |
 |5  |occult-causalDatastore | Zubair Nawaz |
-|6  | tbd.  | Mohammad M Muhib |
+|6  |BFT-ATOMICBC  | Mohammad M Muhib |
