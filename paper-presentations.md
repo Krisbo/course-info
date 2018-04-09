@@ -63,7 +63,7 @@
 |3  |tapir  | Nicolai Vikanes Stensland |
 |4  |SpeedingUpConsensus |	Hafiz Rayaan Shahid |
 |5  |paxos-transparent-crane-sosp15 | Bilal Amjad |
-|6  |consensus-box-nsdi16-istvan | Siavash Rasouli |
+|6  |nsdi17-lepton-storage |	Vladyslav Maksyk |
 |7  |bchain | Tom Kristian Tjemsland |
 
 ## Monday 16th April
@@ -82,7 +82,7 @@
 |---|-------------------|---------|
 |1  |nsdi17-vCorfu	| Redjol Resulaj |
 |2  |callas-xie-sosp2015 |	Luca Tomasetti |
-|3  |nsdi17-lepton-storage |	Vladyslav Maksyk |
-|4  |nonUniformReplication | Rameesha Asghar |
-|5  |occult-causalDatastore | Zubair Nawaz |
+|3  |nonUniformReplication | Rameesha Asghar |
+|4  |occult-causalDatastore | Zubair Nawaz |
+|5  |consensus-box-nsdi16-istvan | Siavash Rasouli |
 |6  |BFT-ATOMICBC  | Mohammad M Muhib |
