@@ -2,8 +2,16 @@
 ## Uniform and regular consensus
 
 * What is the difference between uniform an regular consensus?
+
+__Answer:__ *In uniform consensus, also faulty processes need to agree and cannot output a different value. In regular consensus, a process may decide on one value, then crash and the other processes then decide on a different value.*
+
 * Does uniform consensus implement regular consensus or vice versa?
+
+__Answer:__ *Uniform consensus does implement regular consensus. This means every algorithm for uniform consensus also implements regular consensus.*
+
 * Describe an execution that is possible in regular consensus but not uniform consensus.
+
+__Answer:__ *Process P1 decides `1` and then crashes. Later Process P2 decides `0`.*
 
 ---
 
@@ -13,7 +21,12 @@ Assume three processes *p1*, *p2* and *p3* run consensus. *p1* proposes *z*, *p2
 If no processes crash,
 
 * Which value will be chosen by flooding consensus (Alg. 5.1/5.3)?
+
+__Answer:__ *Flooding consensus chooses the minimal value, `min(x,y,z) = x`. Thus `x` will be chosen.*
+
 * Which value will be chosen by hierarchical consensus (Alg. 5.2/5.4)?
+
+__Answer:__ *Hierarchical consensus chooses the value from the process with highest rank. If process `p1` has highest rank, `z` will be chosen.*
 
 ---
 
