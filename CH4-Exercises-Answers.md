@@ -43,7 +43,7 @@ __Answer__: *Fig. 4.4 is not possible in Alg. 4.1, Fig 4.5 is possible in Alg. 4
 
 ![Figure 1, an execution of an (N,N)-register](fig/CH4-fig1.jpg?raw=true)
 
-__Answer__: *The order is `W(x), R()-> x, W(y), R() -> y, R() -> y, R() -> y, W(z), R() -> y`
+__Answer__: *The order is `W(x), R()-> x, W(y), R() -> y, R() -> y, R() -> y, W(z), R() -> z`
 The figure below shows the synchronization points for showing that the execution is atomic. Note that if you order the operations according to their points, the resulting order is the same one as the order above.*
 
 ![Figure 1.1, synchronization points](fig/CH4-Ex-Answer.png?raw=true)
@@ -55,7 +55,13 @@ The figure below shows the synchronization points for showing that the execution
   
  ![Figure 2, an execution of an (N,N)-register with a failed write.](fig/CH4-fig2.jpg?raw=true)
  
+__Answer__: *We only write down the order. Note that we don't need to include the failed operation in the order.*
+`W(x), R()->x, R()->x, W(z), R()->z, R()->z`
+ 
  ![Figure 3, an execution of an (N,N)-register with a failed write.](fig/CH4-fig3.jpg?raw=true)
+
+__Answer__: *Same as above. But we need to include the completed read operation, that return `y`. We therefore also need to include the `W(y)`, so the result gives a valid sequetial execution.*
+`W(x), R()->x, W(y), R()->y, W(z), R()->z, R()->z`
 
 ## Linearizability on a set-object
 *difficult exercise*
