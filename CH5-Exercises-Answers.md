@@ -75,11 +75,16 @@ m3 = <STATE> ts = 0, v = "Y", ws = { }  </STATE>
 Assume `N=4`.
 * Will the leader wait for another message?
 
+__Answer:__ *Let S be the three `<STATE>`-messages from above. `quorumhighest(2,"X", S)` is true, but `iscertified(2, "X", S)` is not true. Thus `binds(2, "X", S)` is false. `unbound(S)` is also false. Thus the leader needs to wait for more messages.*
+
 Assume the leader receives an additional message:
 ```html
 m4 = <STATE> ts = 0, v = "X", ws = { (ts = 3, v= "Y")}  </STATE>
 ```
 * What value will be written this round?
+
+__Answer:__ *Let `S'={m1, m2, m4}` then `quorumhighest(2,"X", S')` holds and `iscertified(2, "X", S')` holds as well. 
+Thus `binds(2, "X", S')` holds and the value "X" will be written.*
 
 ---
 
