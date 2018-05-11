@@ -32,12 +32,11 @@ __ANSWER:__ *Alg 6.2 uses Byzantine consensus with the strong validity property,
 7. We replace the perfect failure detector in Algorithm 6.3 with an eventually perfect failure detector,
 and the `<CRASH>` even with the `<SUSPECT>` event. 
     * Which properties from Module 6.4 still hold? 
+    * Can you reformulate the properties that no longer hold?
     
     __ANSWER:__ *With an unreliable failure detector a process may propose the triangle in Alg. 6.3, even if the sender did not crash. Validity may be violated, e.g. a correct sender may broadcast `m`, but if the sender is suspected, the processes may deliver the triangle instead.*
     
-    * Can you reformulate the properties that no longer hold?
-    
-    __ANSWER:__ *If a correct process `p` broadcasts a message `m` then it eventually delivers `m`, or the triangle. If `p` is never suspected by any other process, then `p` eventually delivers `m`.*
+    __ANSWER:__  __New Validity:__ *If a correct process `p` broadcasts a message `m` then it eventually delivers `m`, or the triangle. If `p` is never suspected by any other process, then `p` eventually delivers `m`.*
  ## Fast Consensus
  
  8. Give an example of an execution of Algorithm 6.4, where some process decides on the fast path and 
