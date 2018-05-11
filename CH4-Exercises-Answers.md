@@ -23,11 +23,17 @@ To be regular the read in Fig. 4.3 must return the last value written, `y`*
 5. Draw a sequence diagram for an execution of a (1,N)-register 
 that is not regular.
 
+__Answer__: *See Fig. 4.3*
+
 6. Draw a sequence diagram for an execution of a (1,N)-register 
 that is regular but not atomic.
 
+__Answer__: *See Fig. 4.4 and 4.5*
+
 *Optional:* Think of if the sequence diagram you have drawn is possible for algorithm 4.1 or 4.2 and 
 how/why this behaviour is not possible in algorithm 4.5 or 4.6.
+
+__Answer__: *Fig. 4.4 is not possible in Alg. 4.1, Fig 4.5 is possible in Alg. 4.2, Fig 4.6 is possible in 4.2*
 
 ## Atomic and linearizable
 
@@ -36,6 +42,8 @@ how/why this behaviour is not possible in algorithm 4.5 or 4.6.
   * Show that the execution is linearizable by ordering the operations.
 
 ![Figure 1, an execution of an (N,N)-register](fig/CH4-fig1.jpg?raw=true)
+
+__Answer__: *The order is `W(x), R()-> x, W(y), R() -> y, R() -> y, R() -> y, W(z), R() -> y`*
 
 8. The two figures below shows an execution of an (N,N)-register with one failed write operation. 
   Remember that failed operations may or may not be included in the order and my pr may not get a synchronization point.
