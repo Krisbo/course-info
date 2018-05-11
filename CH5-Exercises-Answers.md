@@ -64,7 +64,7 @@ __Answer:__ *All processes maintain a timer. If consensus does not decide within
 
 * Compare the Byzantine Read/Write Epoch Consensus (Alg. 5.17, 5.18) to authenticated double-echo broadcast (Alg. 3.18).
 
-__Answer:__ **
+__Answer:__ *The `WRITE` and `ACCEPT` messages in Alg.5.18 are similar to the `ECHO` and `READY` messages in Alg. 3.18. The amplification step, where an `READY` message is sent upon receiving f+1 `ECHO` messages is missing from Alg. 5.18, but it could be introduces as an optimization.*
 
 A leader for Byzantine Leader-Driven Consensus receives the following messages in the conditional collect primitive:
 ```html
