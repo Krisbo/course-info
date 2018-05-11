@@ -34,14 +34,20 @@ __Answer:__ *Hierarchical consensus chooses the value from the process with high
 
 * Explain why any algorithm, that implements regular consensus in the fail-noisy model must implement uniform consensus.
 
+__Answer:__ *In the fail-noisy model, we only have an unreliable failure detector. Thus the processes cannot distinguish the two cases (1) process `p1` crashes and (2) process `p1` does not crash but is suspected by all other processes. In the second case, regular consensus requires `p1` to decide on the same value as the other processes. Thus the same holds for the first case.*
+
 ---
 
 ## Randomized consensus
 
 * Why do some algorithms use randomization to solve consensus?
 
+__Answer:__ *It is impossible to solve consensus in the fail-silent model. But using randomization, we can solve consensus without relying on a failure detector (timing assumptions).*
+
 * Does Randomized binary consensus (Alg. 5.12/5.13) 
 impement the agreement property from uniform consensus, or only regular agreement?
+
+__Answer:__ *It actually implements uniform consensus. To see this, either study the algorithm in great detail or do a similar argument as above, showing that to implement regular consensus with randomization, we actually need to implement uniform consensus.*
 
 ---
 
@@ -49,8 +55,16 @@ impement the agreement property from uniform consensus, or only regular agreemen
 
 * Compare the weak and strong validity properties of byzantine consensus. Does strong validity implement weak validity?
 Can byzantine consensus with weak validity be used to implement strong validity?
+
+__Answer:__ *Strong validity does not implement weak validity and vice versa. But strong validity can be implemented given weak validity. See Solution 5.11 in the book.*
+
 * What triggers a new epoch in Byzantine Leader-Driven Consensus (Alg. 5.19)?
+
+__Answer:__ *All processes maintain a timer. If consensus does not decide within the timeout, the processes complain about the current leader. If `f+1` process complain, a new leader will be elected and a new epoch starts.*
+
 * Compare the Byzantine Read/Write Epoch Consensus (Alg. 5.17, 5.18) to authenticated double-echo broadcast (Alg. 3.18).
+
+__Answer:__ **
 
 A leader for Byzantine Leader-Driven Consensus receives the following messages in the conditional collect primitive:
 ```html
