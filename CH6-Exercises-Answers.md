@@ -49,12 +49,17 @@ and eventually decide on `0` on the slow path.*
 
 ## Group membership
 
-9. Consider Algorithm 6.9-6.10. Here the algorithm requests from the application to stop sending messages. 
+9. Consider Algorithm 6.8-6.9. Here the algorithm requests from the application to stop sending messages. 
     * What whould happen if instead, the algorithm would simply stop to forward messages? 
       Which property of Module 6.9 or 6.10 would be violated?
-10. If we implement Algorithm 6.9-6.10 in the *fail-noisy* model with an eventually perfect failure detector (<>P) and use 
+      
+    __ANSWER:__ *View Inclusion would be violated. Messages sent in the old view would be delivered first in the new view.*
+    
+10. If we implement Algorithm 6.10-6.11 in the *fail-noisy* model with an eventually perfect failure detector (<>P) and use 
     the `<SUSPECT>` event instead of `<CRASH>`, what properties from Module 6.10 would still hold?
     * How can we handle the failure bound *f* and the `<RESTORE>` events from <>P?
+
+   __ANSWER:__ *Using an unreliable failure detector, a process may be removed even if it has not crashed. Thus violating Accuracy of Module 6.8. Also messages sent by the removed process may never be delivered. This may violate reliable delivery.*
     
 ## Good execises from the book
 I recommend at least reading all exercises from the book. 
